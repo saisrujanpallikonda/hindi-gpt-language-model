@@ -1,0 +1,19 @@
+Model: GPT with Multi-Head Self-Attention
+Dataset: Hindi Wikipedia 163,093 articles
+Architecture: 4 layers, 4 heads, 128-dim, 0.83M params
+Training steps: 20,000
+
+Bigram Perplexity:  13.35
+GPT Perplexity:     4.9728
+
+Training log:
+  Step     0 → PPL: 115.88
+  Step  2000 → PPL: 8.34
+  Step  4000 → PPL: 6.53
+  Step  6000 → PPL: 5.88
+  Step  8000 → PPL: 5.57
+  Step 10000 → PPL: 5.38
+  Step 12000 → PPL: 5.19
+  Step 14000 → PPL: 5.06
+  Step 16000 → PPL: 5.02
+  Step 18000 → PPL: 4.97
